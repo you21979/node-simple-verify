@@ -19,10 +19,20 @@
     "bluebird": "3.4.x",
     "uuid": "2.0.x"
   },
+  "devDependencies": {
+    "istanbul":"",
+    "coveralls":"",
+    "power-assert":"",
+    "mocha":""
+  },
   "author": "you21979",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/you21979/node-simple-verify/issues"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/istanbul cover ./node_modules/mocha/bin/_mocha",
+    "coveralls": "cat ./coverage/lcov.info | ./node_modules/.bin/coveralls"
   },
   "homepage": "https://github.com/you21979/node-simple-verify#readme"
 }

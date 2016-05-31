@@ -1,11 +1,17 @@
 # simple-verify
 
+## install
+
+```
+npm i @you21979/simple-verify
+```
+
 ## usage
 
 ### create Key and Secret
 
 ```
-var verify = require('simple-verify')
+var verify = require('@you21979/simple-verify')
 verify.createKeyPair().then(function(res){
     // result data save
     console.log(res)
@@ -15,7 +21,7 @@ verify.createKeyPair().then(function(res){
 ### sign and verify
 
 ```
-var verify = require('simple-verify')
+var verify = require('@you21979/simple-verify')
 var argo = 'sha256'
 var pair = {
     key: '6b47121a-cfd5-4875-8345-da7517730afa',

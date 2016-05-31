@@ -34,7 +34,7 @@ describe('simple-test', function() {
             timestamp : new Date() / 1000 | 0
         })
         var unmatchsecret = "ff1f7a20f8ffd9dc812d715f7374ba6b60b35a11e739a2fdb1fe88b83cfa7244"
-        var signdata = verify.sign(argo, "", data)
+        var signdata = verify.sign(argo, pair.secret, data)
         assert(verify.check(argo, signdata, unmatchsecret, data) === false)
     })
 })

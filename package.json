@@ -16,8 +16,8 @@
     "verify"
   ],
   "dependencies" : {
-    "bluebird": "",
-    "uuid": ""
+    "bluebird": "3.4.x",
+    "uuid": "2.0.x"
   },
   "author": "you21979",
   "license": "MIT",

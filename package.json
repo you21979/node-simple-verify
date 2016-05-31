@@ -1,11 +1,8 @@
 {
   "name": "@you21979/simple-verify",
   "version": "0.0.1",
-  "description": "",
+  "description": "simple-verify",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/you21979/node-simple-verify.git"

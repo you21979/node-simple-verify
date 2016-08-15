@@ -1,5 +1,7 @@
 # simple-verify
 
+* GENERATE SECRET AND HMAC VERIFY
+
 ## install
 
 ```
@@ -30,7 +32,8 @@ var pair = {
 
 var data = JSON.stringify({
     key : pair.key,
-    message : "test desu"
+    message : "test desu",
+    nonce : new Date().getTime(),
 })
 
 var signdata = verify.sign(argo, pair.secret, data)

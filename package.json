@@ -1,7 +1,7 @@
 {
   "name": "@you21979/simple-verify",
-  "version": "0.0.1",
-  "description": "simple-verify",
+  "version": "0.0.2",
+  "description": "GENERATE SECRET AND HMAC VERIFY",
   "main": "index.js",
   "repository": {
     "type": "git",
